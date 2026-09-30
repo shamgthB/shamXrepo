@@ -122,3 +122,162 @@ h2 {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    color: #764ba2;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Image Styling */
+.my-image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.my-image:hover {
+    transform: scale(1.02);
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    height: 2px;
+    background: #eee;
+}
+
+h2 {
+    color: #667eea;
+    margin-bottom: 25px;
+}
+
+/* Common Button Style */
+.btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 6px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #764ba2;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Audio Button Style */
+.audio-btn {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+.audio-btn:hover {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Download Button Style */
+.download-btn {
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+/* Image Button Style */
+.image-btn {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+.image-btn:hover {
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+}
+
+/* Har Audio Ke Item Ka Box */
+.audio-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #f8f9ff;
+    border: 1px solid #e6e9ff;
+    transition: all 0.3s ease;
+}
+
+.audio-item:hover {
+    background: #eef1ff;
+    box-shadow: 0 4px 10px rgba(102, 126, 234, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 18px;
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+    }
+    .my-image {
+        height: 200px;
+    }
+}

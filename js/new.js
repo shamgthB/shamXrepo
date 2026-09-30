@@ -1,1 +1,2 @@
-alert("Mera code link ho gaya!");
+alert("Gaduaa hoba saar kethu kaaj laayek hoba na");
+console.log("JS file successfully connected!");

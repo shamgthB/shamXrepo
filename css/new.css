@@ -1,3 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    background-color: rgb(230, 173, 230);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    color: #764ba2;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.my-image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.divider {
+    margin: 30px 0;
+    border: 0;
+    height: 2px;
+    background: #eee;
+}
+
+h2 {
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: #764ba2;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.audio-btn {
+    background: #ff7e5f;
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+.audio-btn:hover {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.image-btn {
+    background: #11998e;
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    margin-bottom: 20px;
+}
+
+.image-btn:hover {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+.download-btn {
+    background: #28a745; /* Green color */
+    text-decoration: none; /* Link ke neeche wali line hatane ke liye */
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }

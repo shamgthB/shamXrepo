@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Mera Pehla Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Funny Website 😎</title>
     <link rel="stylesheet" href="css/new.css">
 </head>
 <body>
-    <h1>Hello world i am a developer</h1>
-    <p>thats is my first website</p>
 
-    <!-- Tumhari list yahan aayegi -->
-    <ul>
-        <li>coding</li>
-        <li>reading</li>
-        <li>writing</li>
-        <li>dancing</li>
-        <li>riding bike</li>
-    </ul>
+    <div class="container">
+        <h1>Mera Pehla Website 😎</h1>
+        <p>Yeh hai meri mast website, yahan pe maze karo! 🎉</p>
 
-    <!-- Audio pehle aayega -->
-    <audio id="myAudio" src="audio/audio.mp3"></audio>
+        <!-- Image Section -->
+        <img id="randomImage" src="https://picsum.photos/600/400" alt="Random Image" class="my-image">
+        <br>
+        <button id="changeImageBtn" class="btn image-btn">Nayi Photo Lao 📸</button>
 
-    <!-- Script sabse aakhri mein aayega -->
+        <hr class="divider">
+
+        <!-- Audio Section -->
+        <h2>Audio Sunne Ke Liye Click Karo 🎧</h2>
+        
+        <div class="audio-buttons">
+            <button class="btn audio-btn" data-audio="audio/audio.mp3">Pehla Audio Bajao 🎵</button>
+            <button class="btn audio-btn" data-audio="audio/2nd.mp3">Dusra Audio Bajao 🎶</button>
+                        <!-- Naye Audio Buttons -->
+            <button class="btn audio-btn" data-audio="audio/3rd.mp3">Teesra Audio Bajao 🎸</button>
+            <button class="btn audio-btn" data-audio="audio/4th.mp3">Chautha Audio Bajao 🥁</button>
+            <button class="btn audio-btn" data-audio="audio/5th.mp3">Click to earn bonus 🎼</button>
+                    <!-- Audio Section -->
+        <h2>Audio Sunne Ke Liye Click Karo 🎧</h2>
+        
+        <div class="audio-buttons">
+            <!-- Pehla Audio -->
+            <button class="btn audio-btn" data-audio="audio/audio.mp3">Pehla Audio Bajao 🎵</button>
+            <a href="audio/audio.mp3" download="Mera-Pehla-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            
+            <br><br> <!-- Thoda space dene ke liye -->
+
+            <!-- Dusra Audio -->
+            <button class="btn audio-btn" data-audio="audio/2nd.mp3">Dusra Audio Bajao 🎶</button>
+            <a href="audio/2nd.mp3" download="Mera-Dusra-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+                    <div class="audio-buttons">
+            <!-- Audio 1 -->
+            <div class="audio-item">
+                <button class="btn audio-btn" data-audio="audio/audio.mp3">Pehla Audio Bajao 🎵</button>
+                <a href="audio/audio.mp3" download="Mera-Pehla-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            </div>
+
+            <!-- Audio 2 -->
+            <div class="audio-item">
+                <button class="btn audio-btn" data-audio="audio/2nd.mp3">Dusra Audio Bajao 🎶</button>
+                <a href="audio/2nd.mp3" download="Mera-Dusra-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            </div>
+
+            <!-- Audio 3 -->
+            <div class="audio-item">
+                <button class="btn audio-btn" data-audio="audio/3rd.mp3">Teesra Audio Bajao 🎸</button>
+                <a href="audio/3rd.mp3" download="Mera-Teesra-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            </div>
+
+            <!-- Audio 4 -->
+            <div class="audio-item">
+                <button class="btn audio-btn" data-audio="audio/4th.mp3">Chautha Audio Bajao 🥁</button>
+                <a href="audio/4th.mp3" download="Mera-Chautha-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            </div>
+
+            <!-- Audio 5 -->
+            <div class="audio-item">
+                <button class="btn audio-btn" data-audio="audio/5th.mp3">Click to earn bonus 🎤</button>
+                <a href="audio/5th.mp3" download="Mera-Paanchva-Audio.mp3" class="btn download-btn">Download ⬇️</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
     <script src="js/new.js"></script>
 </body>
 </html>
-<button id="randomBtn">Random Photo</button>
-<br><br>
-<img id="randomImage" src="https://picsum.photos/300" style="width: 300px; border-radius: 10px;">
